@@ -1,0 +1,81 @@
+header {
+ background-color: lightblue;
+ background-size: cover;
+ background-position: center;
+}
+.name {
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 5px;
+  background-color: lightblue;
+  padding-bottom: 10px;
+}
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+  line-height: 8px;
+  text-transform: uppercase;
+}
+.subtitle span {
+  color: red;
+  margin-bottom: 5px;
+}
+#GA:hover {
+  background-color: white;
+  font-size: 35px;
+}
+.profile {
+  margin: 15px 0px 10px 0px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+div {
+  text-align: center;
+  background: url("http://www.itdinteractive.com/wp-content/uploads/2014/10/ecommerce-dark-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+article {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  line-height: .5em;
+}
+h2 {
+  margin: 40px 0px 50px 0px;
+}
+nav {
+  padding: 10px;
+  background: lightblue;
+  margin: 10px 0px 10px 0px;
+}
+li {
+  padding: 10px;
+  display: inline;
+}
+li:hover {
+  background-color: white;
+}
+.projects {
+  margin: 20px 0px 30px 0px;
+}
+.gapic {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.email:hover {
+  background-color: white;
+}
+footer {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightblue;
+}
+footer span {
+  font-size: 15px;
+  color: white;
+}
