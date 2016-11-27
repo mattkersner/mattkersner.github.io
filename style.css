@@ -27,17 +27,17 @@ header {
   font-size: 35px;
 }
 .profile {
-  margin: 15px 0px 10px 0px;
+  margin: 20px 0px 10px 0px;
   border: 3px solid black;
   border-radius: 50%;
 }
-div {
+.photoandnav {
   text-align: center;
   background: url("http://www.itdinteractive.com/wp-content/uploads/2014/10/ecommerce-dark-background.jpg");
   background-size: cover;
   background-position: center;
 }
-article {
+.aboutme {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 30px;
@@ -61,10 +61,19 @@ li:hover {
 .projects {
   margin: 20px 0px 30px 0px;
 }
+.work {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  line-height: .5em;
+}
 .gapic {
   height: 100px;
   width: 100px;
   margin: 10px;
+}
+.mem {
+  margin: 6px;
 }
 .email:hover {
   background-color: white;
