@@ -1,0 +1,98 @@
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  font-family: 'Incosolata', monospace;
+  font-size: 1.2em;
+}
+header > h2 {
+  animation-name: slideIn;
+  animation-duration: 2s;
+}
+@keyframes slideIn {
+ from  {
+  margin-left: 100%;
+  width: 300%;
+ }
+ to {
+  margin-left: 0;
+  width: 100%;
+ }
+}
+span.ga {
+  color: red;
+}
+span.ga:hover {
+  font-size: 1.3em;
+}
+img.title {
+  padding: 4px;
+  width: 40%;
+}
+.gaphoto {
+  background-image: url("background3.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.gaphoto:hover {
+  opacity: 1;
+}
+.release {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  padding: 5px;
+}
+.release p {
+  line-height: 0px;
+  font-size: 20px;
+  text-align: center;
+  animation-name: slideIn;
+  animation-duration: 2s;
+  padding: 1px;
+  text-transform: uppercase;
+}
+.statement {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  column-count: 3;
+  margin: 50px 75px 75px 75px;
+  padding: 10px;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 5px;
+  border-radius: 5px 10px 5px 10px;
+}
+li:hover {
+  background-color: rgba(128, 128, 128, 1);
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+footer > p {
+  margin: 0;
+}
+
+
